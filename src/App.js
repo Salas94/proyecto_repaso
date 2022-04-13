@@ -1,6 +1,6 @@
 
 import './App.scss';
-import Navbar from './components/Navbar';
+import Navbar from '../src/components/Navbar';
 
 import uuid from 'react-uuid';
 import{
@@ -17,9 +17,8 @@ function App() {
       
       <nav>
         <ul>
-          <div >
+          <div>
             <Navbar />
-            <h1 >GuiBaDRu</h1>
           </div>
           {MenuElems.map((item,index) => {
             return (<li key={uuid()}><Link to={item.path}> {item.text} </Link></li>);
