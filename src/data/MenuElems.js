@@ -9,7 +9,7 @@ const MenuElems = [
     {  
         path:"/Pepe",
         text: "Pepe",
-        componentSite:<MiPrimerComponenteClase nombre = " Pepe " apellido =" Perez " color="red"/>
+        componentSite:<MiPrimerComponenteClase nombre = " Pepe " apellido =" Perez " color="red" />
     },
     {  
         path:"/Juan",
